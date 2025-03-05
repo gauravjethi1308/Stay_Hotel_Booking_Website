@@ -4,3 +4,4 @@ Stay Hotel Booking Website | React JS | Tailwind CSS | Utilized React JS for bui
 
 ![image alt](https://github.com/gauravjethi1308/Stay_Hotel_Booking_Website/blob/96c2f51ef04407b3c270cf3cd53eb6e301b6c64f/Screenshot%20(2).png)
 ![image alt](https://github.com/gauravjethi1308/Stay_Hotel_Booking_Website/blob/768b3fe3611fa8969bc03c63df65b7c0480b7f98/Screenshot%20(3).png)
+![image alt](https://github.com/gauravjethi1308/Stay_Hotel_Booking_Website/blob/aa9c7ecbaf2f1333dfa910bd57238682cad847a9/Screenshot%20(4).png)
