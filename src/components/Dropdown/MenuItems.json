@@ -1,0 +1,26 @@
+[
+{
+"title":"About",
+"route":"/about"
+
+
+
+},
+
+{
+    "title":"Home",
+    "route":"/"
+
+    
+    
+    },
+    
+    {
+        "title":"Stay",
+        
+        "route":"/stay"
+
+        
+        }
+
+]

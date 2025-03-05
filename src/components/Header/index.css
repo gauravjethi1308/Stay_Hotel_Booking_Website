@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) {
+    .header {
+        
+        color: brown;
+
+      }
+    }
+
+
+  .active{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
+    
+ 
+  
+  
+
+

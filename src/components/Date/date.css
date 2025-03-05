@@ -1,0 +1,158 @@
+/* Styling the input */
+.datepicker-input {
+  width: 150px;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .datepicker-input  {
+    width:200px;
+    height: 50px;
+    border: 2px solid #000000; /* Light gray border */
+    color: rgb(0, 0, 0);
+
+  }
+}
+
+
+.datepicker-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+/* Custom styling for the calendar */
+.custom-calendar {
+  width: 230px; /* Keep the width as is */
+  height: auto; /* Allow height to adjust based on content */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: white; /* Background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-size: 10px; /* Font size for the text */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: auto;
+  max-height: calc(3 * 30px + 50px); /* Restrict height: 3 rows of days + header (adjust value as needed) */
+}
+
+/* Styling the scrollbar (optional for better UI) */
+.custom-calendar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-calendar::-webkit-scrollbar-thumb {
+  background-color: #007bff; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+.custom-calendar::-webkit-scrollbar-thumb:hover {
+  background-color: #999; /* Darker color on hover */
+}
+
+.custom-calendar::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Light background for the scrollbar track */
+}
+
+
+
+.react-datepicker__header{
+  height:50px;
+} 
+
+/* Styling individual calendar days */
+.react-datepicker__day,
+.react-datepicker__day-name {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 2px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Highlight selected day */
+.react-datepicker__day--selected {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+/* Change hover effect for days */
+.react-datepicker__day:hover {
+  background-color: #e9ecef;
+  color: #007bff;
+  border-radius: 4px;
+}
+
+
+
+
+.room-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin: 20px 0;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 500px) {
+  .room-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+/* Dropdown Containers */
+.dropdown-container {
+  display: flex;
+  flex-direction:row ;
+  background-color:transparent;
+}
+
+
+
+/* Dropdown Input */
+.dropdown-input {
+  width: 150px;
+  height:45px;
+  padding: 8px;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: transparent; /* Transparent background */
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .dropdown-input  {
+    width:200px;
+    height: 50px;
+    border: 2px solid #000000; /* Light gray border */
+    color: white;
+
+  }
+}
+
+
+.dropdown-input:focus {
+  outline: none;
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Subtle shadow on focus */
+}
+
+
+@media (max-width: 960px) {
+.dropdown-input{
+  color: black;
+}
+}

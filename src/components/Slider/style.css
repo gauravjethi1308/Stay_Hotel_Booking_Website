@@ -1,0 +1,69 @@
+/* Custom Swiper Container */
+.mySwiper {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Optional: Add rounded corners */
+  }
+  
+  /* Custom Swiper Slide */
+  .mySwiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Fallback background color */
+  }
+  
+  /* Custom Swiper Slide Image */
+  .mySwiper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the slide */
+  }
+  
+  /* Custom Navigation Buttons */
+  .mySwiper .swiper-button-prev,
+  .mySwiper .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mySwiper .swiper-button-prev:hover,
+  .mySwiper .swiper-button-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .mySwiper .swiper-button-prev::after,
+  .mySwiper .swiper-button-next::after {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Custom Pagination */
+  .mySwiper .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .mySwiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mySwiper .swiper-pagination-bullet-active {
+    background-color: #fff;
+  }

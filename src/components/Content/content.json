@@ -1,0 +1,148 @@
+
+{
+
+
+    "topContent":[
+        {
+        
+    "content1":"  H.No.22, Bhowali, Gram,Dankiniya, UTTARAKHAND",
+    "telephone":"TEL: +91 7536048295 ",
+    "FAX":"FAX: +41 22 345 67 89 ",
+    "mail":"BOOKING@STAYIRIAFARM.COM"
+        }
+    ],
+    
+    "mainHeading":[{"content":"STAY IRIAFARM"}],
+    
+    
+    
+        
+   
+    
+    "footerReachOut":[{
+    "reachout1":"Email: booking@cozystay.com",
+    "reachout2":"Tel: +41 22 345 66 77",
+    "reachout3":"Fax: +41 22 345 77 89",
+    "reachout4":"Rue de Lausanne, 1202 Genève, Switzerland"
+    }],
+    
+    
+    
+    
+    "middleContent":[
+        {
+        "content1":"BOUTIQUE RESORT OFFERING TIMELESS EUROPEAN LUXURY",
+        "content2":"BOUTIQUE RESORT IN THE",
+        "content3":"HEART OF SWISS ALPS"
+        }
+    ],
+    
+    "links":[
+    {
+        
+        "text1":"HOME"
+    ,
+    
+    
+        "text2":"STAY"
+    ,
+    
+        "text3":"CONTACT"
+    ,
+    
+        "text4":"ABOUT"
+    }
+    
+    ],
+    
+    "Homesection2":[
+    {
+        
+        "para":"Swiss Heritage Meets Modern Luxury",
+        "heading1":"CozyStay in the heart of the mountains is an architectural",
+        "heading2":"masterpiece offering contemporary accommodations",
+        "heading3":"with unrivalled ski and hiking trails."
+    }],
+    
+    
+    "StayPage":[
+    {
+        
+        "para":"Warmth. Care. Peace.",
+        "heading1":"Rooms & Suites"
+       
+    }],
+    
+    
+    
+    
+    "Staysection2":[
+    {
+        
+        "main":"Comfortable Rooms & Space",
+        "heading1":"Explore our refined accommodation options and find the",
+       "heading2":"perfect space for your stay.",
+       "para1":"All rooms have a bathroom with bathtub and/or shower, cable television/radio,free WIFI",
+     "para2":"and mini bar. In addition, all rooms are equipped with a Nespresso coffee machine.",
+     "para3":"Most rooms are carpeted, some have parquet flooring.",
+     "checkin":"Check In: 3:00 pm",
+     "checkout":"Check Out: 12:00 pm"
+       }],
+    
+    
+    "Staysection3":[{
+        "para1":"The south-facing aspect affords unimpeded views of the Alps. Measuring",
+        "para2":"42 square metres, with traditional Alpine woods, warm fireplaces, and",
+        "para3":"natural-stone touches."
+    
+    }],
+    
+    
+    
+    
+    "AboutPage":[
+    {
+    
+    
+        "mainContent":"About The Hotel",
+        "mainContentPara":"Welcome to CozyStay, a boutique resort in the heart of Swiss Alps"
+    }
+    ],
+       
+    "AboutPageSec2":[{
+    
+        "para":"Swiss Heritage Meets Modern Luxury",
+        "heading1":"CozyStay in the heart of the mountains is an architectural",
+    
+        "heading2":"masterpiece offering contemporary accommodations",
+        "heading3":"with unrivalled ski and hiking trails.",
+    
+        "para2":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor",
+        "para3":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+                
+    }],
+    
+    
+    
+        "routes": [
+          {
+            "path": "/home",
+            "component": "Home"
+          },
+          {
+            "path": "/about",
+            "component": "About"
+          },
+          {
+            "path": "/stay",
+            "component": "Stay"
+          }
+        ]
+      
+      
+    
+    
+    }    
+            
+    
+    
